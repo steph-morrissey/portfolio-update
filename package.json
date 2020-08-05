@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-update",
+  "version": "1.0.0",
+  "description": "Stephanie Morrissey Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steph-morrissey/portfolio-update.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Stephanie Morrissey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steph-morrissey/portfolio-update/issues"
+  },
+  "homepage": "https://github.com/steph-morrissey/portfolio-update#readme"
+}
