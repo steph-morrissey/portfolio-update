@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Declaring root to serve static pages
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
 
 // Handlebars options
 app.engine("handlebars", handlebars(hbOptions));
