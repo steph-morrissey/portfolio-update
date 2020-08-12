@@ -47,33 +47,33 @@
   border-color: #007bb5;
 }
 
-.rounded-social-buttons .social-button.youtube {
+.rounded-social-buttons .social-button.email {
   background: #bb0000;
 }
 
-.rounded-social-buttons .social-button.youtube:before {
+.rounded-social-buttons .social-button.email:before {
   font-family: "FontAwesome";
   content: "\f0e0";
 }
 
-.rounded-social-buttons .social-button.youtube:hover,
-.rounded-social-buttons .social-button.youtube:focus {
+.rounded-social-buttons .social-button.social-button.email:before:hover,
+.rounded-social-buttons .social-button.email:focus {
   color: #bb0000;
   background: #fefefe;
   border-color: #bb0000;
 }
 
-.rounded-social-buttons .social-button.google-plus {
+.rounded-social-buttons .social-button.cv {
   background: #dd4b39;
 }
 
-.rounded-social-buttons .social-button.google-plus:before {
+.rounded-social-buttons .social-button.cv:before {
   font-family: "FontAwesome";
   content: "\f15b";
 }
 
-.rounded-social-buttons .social-button.google-plus:hover,
-.rounded-social-buttons .social-button.google-plus:focus {
+.rounded-social-buttons .social-button.cv:hover,
+.rounded-social-buttons .social-button.cv:focus {
   color: #dd4b39;
   background: #fefefe;
   border-color: #dd4b39;
