@@ -29,33 +29,25 @@
     </section>
     <section id="projects">
         {{#if projects}}
-        <h3 class="text-center">Projects</h3>
-        {{#each projects}}
-        {{> project}}
-        {{/each}}
-        {{/if}}
-    </section>
-    <section class="text-center" id="contact">
-        <h3>Contact</h3>
-        <div class="grid-x grid-margin-x">
-            <div class="cell small-12 medium-4 large-5">
-                <p> Some contact details </p>
-            </div>
-            <div class="cell small-12 medium-8 large-7">
-                <p>Some more contact details</p>
+        <div class="grid-x">
+            <div class="cell">
+                <h3 class="text-center">Projects</h3>
             </div>
         </div>
+        <div class="grid-x grid-padding-x small-up-2 medium-up-2 large-up-3">
+            {{#each projects}}
+            {{> project}}
+            {{/each}}
+        </div>
+        {{/if}}
     </section>
-    <div class="grid-x text-center">
-        <div class="cell small-auto large-auto">One</div>
-        <div class="cell small-auto large-auto">Two</div>
-        <div class="cell small-auto large-auto">Three</div>
-        <div class="cell small-auto large-auto">Four</div>
-        <div class="cell small-auto large-auto">Five</div>
-        <div class="cell small-auto large-auto">Six</div>
-    </div>
+    <footer>
+        <div class="rounded-social-buttons">
+            <a class="social-button linkedin" href="#"></a>
+            <a class="social-button github" href="#"></a>
+            <a class="social-button youtube" href="#"></a>
+            <a class="social-button google-plus" href="#"></a>
 
-    <div class="cell shrink footer text-center">
-        <small class="text-muted">Email: sgmorrissey@gmail.com</small>
-    </div>
+        </div>
 </div>
+</footer>

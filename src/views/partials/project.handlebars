@@ -1,12 +1,10 @@
-<div class="grid-x grid-margin-x grid-padding-x align-middle">
-    <div class="cell small-12 medium-8 large-7">
-        <h3 class="text-center">{{name}}</h3>
-        <p>{{description}}</p>
+<div class="cell">
+    <div class="callout">
+        <p class="text-center">{{name}}</p>
+        <p><img src="/images/{{imageName}}" alt="Image of {{name}}"></p>
         <p class="text-center">{{technologies}}</p>
-    </div>
-    <div class="cell small-12 medium-4 large-5 ">
-        <div class="border solid">
-            <img src="/images/{{imageName}}">
-        </div>
+        <p>{{description}}</p>
+        <p>Repository: {{repoLink}}</p>
+        <p>Deployed Link: {{deployedLink}}</p>
     </div>
 </div>
